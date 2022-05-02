@@ -1,0 +1,19 @@
+.product-content-container{
+    padding: 30px;
+}
+
+.description-container {
+    padding: 50px;
+    margin-top: -6rem;
+    text-align: left;
+}
+
+.card-container {
+    padding: 30px;
+    margin: 50px 50px 60px 50px;
+}
+
+#product-image{
+    margin-top: 100px;
+
+}

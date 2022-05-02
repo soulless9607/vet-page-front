@@ -1,0 +1,37 @@
+.side-menu__block-inner {
+    position: absolute;
+    right: 0;
+    float: right;
+    top: 0;
+    justify-content: end;
+    padding: 0 50px 0 40px;
+    width: 100%;
+    max-width: 656px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #eceeef;
+    z-index: 999999;
+}
+
+.side-menu__block {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.side-menu__block.active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}

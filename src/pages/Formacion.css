@@ -1,0 +1,61 @@
+.card-container-formacion   {
+    padding: 130px 0 59px 0;
+    background-image: url(../../src/assets/images/mark-page/mark-team.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.formacion-title{
+    color: #1976d2;
+}
+
+.formacion-text {
+
+    margin: 0 0 20px 0;
+    line-height: 25px;
+    color: #00a0e3;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.formacion-right-container{
+    /* margin-top: 0px; */
+}
+
+.right-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+hr {
+   border-top:  0.3px solid #00a0e3  ;
+}
+
+.square {
+    width: 80px;
+    background: #00a0e3;
+    color: #FFF;
+    max-height: 100px;
+
+}
+#first{
+    font-weight: bold;
+    font-size: 170%;
+    line-height: 25px;
+}
+
+.square span {
+    margin: 0 20px 0;
+    display: block;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 5px;
+    width: 130px;
+}

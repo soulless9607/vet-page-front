@@ -1,0 +1,43 @@
+.tutorial {
+  background-color: #f9f9f9;
+  height: 500px;
+}
+
+.tutorial > h1 {
+  color: #000000;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.tutorial-container {
+  margin-top: 4.5rem;
+}
+
+.tutorial-container > .MuiGrid-root {
+  display: flex;
+  justify-content: center;
+}
+
+.tutorial-container > .MuiGrid-root > .MuiPaper-root {
+  background-color: transparent;
+  border: 1px solid #00a0e3;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tutorial-container > .MuiGrid-root > .MuiPaper-root > img {
+  height: 60px;
+}
+
+.tutorial-container > .MuiGrid-root > .MuiPaper-root > .MuiTypography-root {
+  font-weight: bold !important;
+}
+
+.tutorial > .MuiButton-root {
+  background-color: #00a0e3;
+  color: #fff;
+  margin-top: 4rem;
+}

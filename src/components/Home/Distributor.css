@@ -1,0 +1,27 @@
+.distributor {
+  height: 600px;
+}
+
+.MuiGrid-root  > .distributor-title {
+  background-image: url(../../assets/images/mark-page/mark-latest-new.png);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiGrid-root > .distributor-slider {
+  background-image: url(../../assets/images/mark-page/mark-team.png);;
+  height: 100% !important;
+}
+
+.MuiGrid-root > .distributor-title > h1 {
+  color: #000 !important;
+  margin-top: 0;
+  object-fit: contain;
+}
+
+img{
+  max-width: 350px;
+  max-height: auto;
+}

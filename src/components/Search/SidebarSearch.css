@@ -1,0 +1,19 @@
+.side-search-content {
+    height: 1000px;
+    background-color: red;
+}
+
+#search_bar {
+    display: flex;
+    place-content: center;
+    margin-top: 50%;
+}
+
+.text{
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.container-search{
+    background-color: #eceeef;
+}

@@ -1,0 +1,30 @@
+.testimonial {
+  background-image: url(../../assets/images/background-section/wave-testimonial.svg);
+  background-repeat: no-repeat;
+  height: 550px;
+  padding: 30px 60px;
+}
+
+.testimonial > h1 {
+  text-align: left;
+}
+
+.cards-container-testimonial {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card-testimonial {
+  border-radius: 5px;
+}
+
+.MuiTypography-subtitle1,
+.MuiTypography-subtitle2 {
+  font-weight: bold !important;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+}

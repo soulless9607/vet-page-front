@@ -1,0 +1,60 @@
+.login {
+  margin: 0;
+  background-color: #dfdfdf33;
+}
+
+.login > h1,
+.login-card > h2
+{
+  color: #000;
+}
+
+.login-container,
+.register-container {
+  padding: 0 40px;
+}
+
+.register-card {
+  background-image: url(../assets/images/mark-page/mark-about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-card  {
+  background-image: url(../assets/images/mark-page/mark-about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: initial;
+}
+
+.login-card,
+.register-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-card .login-form,
+.register-container .login-form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%
+}
+
+.login-card .login-form .MuiButton-root,
+.register-container .login-form .MuiButton-root{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+
+.register-card_container-name {
+  display: flex;
+}

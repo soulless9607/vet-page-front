@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+/* Banner */
+
+.container-banner {
+  padding-top: 120px;
+  background-image: url(../../assets/images//background-section/dog.jpg);
+}
+
+h1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.search-banner {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.MuiTextField-root,
+.MuiAutocomplete-root {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.search-btn {
+  text-transform: none !important;
+  background-color: #5e6de2 !important;
+}
+
+.cards-banner {
+  position: relative;
+  top: 51px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+  gap: 30px;
+}
+
+.banner-cards {
+  display: flex;
+  align-self: center;
+}
+
+.MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 0 !important; */
+}
+
+.cards-content > p {
+  margin-bottom: 0;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.MuiCardContent-root > img {
+  height: 53px;
+  width: 53px;
+}

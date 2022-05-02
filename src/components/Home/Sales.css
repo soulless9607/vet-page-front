@@ -1,0 +1,72 @@
+/* sales */
+/* .sales {
+  background-color: #f9f9f9;
+} */
+
+.section-title > h3 {
+  font-family: "DM Sans", sans-serif;
+  color: #00a0e3;
+}
+
+.section-title > h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.swiper {
+  width: 100% !important;
+  height: 400px !important;
+  padding: 0 20px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 318px !important;
+  margin-right: 0;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.top-sales_first {
+  margin: 34px 63px;
+}
+
+.MuiPaper-root {
+  /* width: 308px; */
+  border-radius: 15px !important;
+}
+
+.MuiTypography-root {
+  /* text-align: left; */
+  width: 100%;
+}
+
+/* .MuiButtonBase-root {
+  height: 85%;
+} */
+
+.MuiButtonBase-root > img {
+  height: auto;
+}
+
+.more-products {
+  background-color: #5da9db !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+  margin: 2rem 0 !important;
+}
